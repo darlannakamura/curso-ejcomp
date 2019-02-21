@@ -5,5 +5,5 @@ const router = express.Router();
 const controller = require('../controllers/calculadora.controller');
 
 // router.post('/', controller.soma);
-
+router.post('/pow',controller.pow);
 module.exports = router;
