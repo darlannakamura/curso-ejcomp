@@ -7,4 +7,7 @@ exports.subtracao = async(req, res, next) => {
     });
 }
 
+exports.pow = async(req, res, next) => {
+    res.send(req.body.a ^ req.body.b);
+}
 
